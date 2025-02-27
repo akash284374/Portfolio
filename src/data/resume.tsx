@@ -43,7 +43,7 @@ export const DATA = {
 
         navbar: true,
       },
-      
+
       // X: {
       //   name: "X",
       //   url: "#",
@@ -87,7 +87,7 @@ export const DATA = {
     {
       school: "Institute of Engineering And Management ,Kolkata",
       href: "#",
-      degree: "B.Tech",
+      degree: "B.Tech 9.1 CGPA",
       logoUrl: "/buildspace.jpg",
       start: "2022",
       end: "2026",
