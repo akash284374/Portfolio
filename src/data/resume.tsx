@@ -11,7 +11,7 @@ export const DATA = {
     "I'm a passionate full-stack developer with expertise in HTML, CSS, JavaScript, React, and MongoDB. I love building responsive, user-friendly websites and applications that solve real-world problems. My work focuses on clean code, modern design, and efficient performance.",
   summary:
     "Passionate about building dynamic, user-friendly web applications with HTML, CSS, JavaScript, React, and MongoDB. I focus on clean code, modern UI/UX, and efficient performance to create seamless digital experiences.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpg",
   skills: [
     "React",
     "Next.js",
