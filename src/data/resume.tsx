@@ -4,8 +4,8 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Akash Kumar Sah",
   initials: "AKS",
-  url: "https://LOCALHOST:3000",
-  location: "Kolkata ,West Bengal ,India",
+  url: "https://localhost:3000",
+  location: "Kolkata, West Bengal, India",
   locationLink: "https://www.google.com/maps/place/Kolkata,+West+Bengal",
   description:
     "I'm a passionate full-stack developer with expertise in HTML, CSS, JavaScript, React, and MongoDB. I love building responsive, user-friendly websites and applications that solve real-world problems. My work focuses on clean code, modern design, and efficient performance.",
@@ -13,11 +13,11 @@ export const DATA = {
     "Passionate about building dynamic, user-friendly web applications with HTML, CSS, JavaScript, React, and MongoDB. I focus on clean code, modern UI/UX, and efficient performance to create seamless digital experiences.",
   avatarUrl: "/me.jpg",
   skills: [
+    "Html",
+    "Css",
+    "JavaScript",
     "React",
-    "Next.js",
-    "Typescript",
     "Node.js",
-    "Python",
     "Java",
     "C++",
   ],
@@ -32,42 +32,29 @@ export const DATA = {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/akash284374",
-        icon: Icons.github,
-
+        icon: Icons.github, // Make sure Icons.github is defined
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/akash-kumar-sah-3217842a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        icon: Icons.linkedin,
-
+        url: "https://www.linkedin.com/in/akash-kumar-sah-3217842a9",
+        icon: Icons.linkedin, // Make sure Icons.linkedin is defined
         navbar: true,
       },
-
-      // X: {
-      //   name: "X",
-      //   url: "#",
-      //   icon: Icons.x,
-
-      //   navbar: true,
-      // },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "#",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
-
+      Codolio: {
+        name: "Codolio",
+        url: "https://codolio.com/akash284374",
+        icon: Icons.globe, // Replaced with github icon (since codolio icon is missing)
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
   },
-
   work: [
     {
       company: "Atomic Finance",
@@ -81,51 +68,45 @@ export const DATA = {
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
-,
   ],
   education: [
     {
-      school: "Institute of Engineering And Management ,Kolkata",
+      school: "Institute of Engineering And Management, Kolkata",
       href: "#",
       degree: "B.Tech 9.1 CGPA",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "",
       start: "2022",
       end: "2026",
     },
     {
-      school: "",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
+      school: "New Horizon School SH.Tamauni Simaria Bhagalpur, Br",
+      href: "",
+      degree: "Senior School Certificate Examination (Class XII)",
+      logoUrl: "",
+      start: "2020",
       end: "2021",
     },
     {
-      school: "Wilfrid Laurier University",
+      school: "Mohini Devi Memorial School Araria Rs, Br",
       href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
+      degree: "Secondary School Examination Certificate (Class X)",
+      logoUrl: "",
+      start: "2018",
+      end: "2019",
     },
   ],
   projects: [
     {
-      title: "Chat Collect",
+      title: "Task Manager",
       href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "May 2024 - June 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Task Manager is a productivity app designed to help users organize, track, and prioritize their daily tasks efficiently. With an intuitive interface and features like task deadlines, reminders, and categorization, it helps users stay focused and manage their time effectively.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "JavaScript",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "React",
       ],
       links: [
         {
@@ -136,16 +117,16 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://raw.githubusercontent.com/akash284374/Portfolio/master/public/viidiid.mp4",
     },
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Iem Hacks",
+      dates: "27 August 2023",
+      location: "Kolkata",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "A central hub for farmers, researchers, and green tech enthusiasts, this platform provides reliable, up-to-date insights into sustainable agriculture and emerging green technologies. Discover best practices, innovative solutions, and the latest trends — all in one place.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
